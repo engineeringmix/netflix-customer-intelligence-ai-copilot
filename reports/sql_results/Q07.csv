@@ -1,0 +1,77 @@
+content_type,genre,avg_completion_pct,sessions
+Documentary,Sports,72.6,140
+Documentary,Action,71.89,282
+Documentary,Drama,71.6,296
+Documentary,Romance,71.19,134
+Documentary,Anime,71.18,640
+Documentary,Fantasy,71.02,1104
+Documentary,Mystery,70.88,113
+Documentary,Documentary,70.77,660
+Documentary,Crime,70.52,287
+Documentary,Thriller,70.4,1097
+Documentary,Stand-Up Comedy,70.11,499
+Documentary,Sci-Fi,70.04,955
+Documentary,Horror,69.79,578
+Documentary,Reality,69.68,389
+Documentary,Family,68.7,262
+Limited Series,Stand-Up Comedy,71.86,796
+Limited Series,Family,71.8,513
+Limited Series,Horror,71.71,270
+Limited Series,Fantasy,71.43,141
+Limited Series,Thriller,70.83,508
+Limited Series,Action,70.72,658
+Limited Series,Comedy,70.7,683
+Limited Series,Crime,70.57,790
+Limited Series,Reality,70.39,417
+Limited Series,Sci-Fi,70.36,547
+Limited Series,Mystery,70.12,833
+Limited Series,Romance,69.8,640
+Limited Series,Documentary,69.67,409
+Limited Series,Anime,69.54,414
+Limited Series,Drama,68.8,269
+Movie,Comedy,71.3,2637
+Movie,Crime,71.09,1103
+Movie,Fantasy,70.73,1736
+Movie,Action,70.73,1063
+Movie,Romance,70.69,1345
+Movie,Sci-Fi,70.68,2048
+Movie,Family,70.6,2230
+Movie,Thriller,70.51,1729
+Movie,Horror,70.31,2931
+Movie,Documentary,70.25,1852
+Movie,Reality,70.23,1776
+Movie,Mystery,70.0,1460
+Movie,Sports,69.96,1847
+Movie,Anime,69.88,2901
+Movie,Drama,69.87,936
+Movie,Stand-Up Comedy,69.84,1160
+Stand-Up Special,Sports,73.29,102
+Stand-Up Special,Anime,71.76,250
+Stand-Up Special,Mystery,70.97,370
+Stand-Up Special,Reality,70.86,257
+Stand-Up Special,Fantasy,70.73,142
+Stand-Up Special,Romance,70.49,526
+Stand-Up Special,Sci-Fi,69.59,127
+Stand-Up Special,Documentary,69.48,408
+Stand-Up Special,Drama,69.42,275
+Stand-Up Special,Family,69.21,267
+Stand-Up Special,Action,68.65,130
+Stand-Up Special,Horror,67.9,126
+Stand-Up Special,Thriller,67.44,118
+Stand-Up Special,Stand-Up Comedy,66.26,234
+TV Show,Horror,71.25,1420
+TV Show,Anime,71.1,1351
+TV Show,Drama,71.09,1077
+TV Show,Romance,71.04,682
+TV Show,Fantasy,71.03,763
+TV Show,Crime,70.97,810
+TV Show,Sports,70.92,1760
+TV Show,Action,70.81,1432
+TV Show,Sci-Fi,70.77,769
+TV Show,Documentary,70.65,895
+TV Show,Family,70.52,1548
+TV Show,Stand-Up Comedy,70.27,1584
+TV Show,Mystery,70.08,1053
+TV Show,Comedy,70.07,1882
+TV Show,Thriller,69.95,929
+TV Show,Reality,69.38,1057

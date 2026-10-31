@@ -1,0 +1,61 @@
+country,rank,issue_subcategory,tickets
+Argentina,1,Invoice question,11
+Argentina,2,Failed payment,9
+Argentina,3,Low resolution,9
+Australia,1,App crashing,14
+Australia,2,Invoice question,14
+Australia,3,Audio sync issue,10
+Brazil,1,Buffering,21
+Brazil,2,Refund request,19
+Brazil,3,Login failure,18
+Canada,1,Invoice question,23
+Canada,2,App crashing,21
+Canada,3,Audio sync issue,21
+France,1,Failed payment,18
+France,2,Refund request,18
+France,3,App crashing,15
+Germany,1,Audio sync issue,26
+Germany,2,Cancellation request,22
+Germany,3,Refund request,22
+India,1,Invoice question,69
+India,2,Failed payment,58
+India,3,Refund request,58
+Indonesia,1,App crashing,13
+Indonesia,2,Auto-renew complaint,13
+Indonesia,3,Email verification issue,13
+Italy,1,Failed payment,14
+Italy,2,Invoice question,12
+Italy,3,App crashing,10
+Japan,1,Invoice question,22
+Japan,2,Failed payment,16
+Japan,3,Account locked,12
+Mexico,1,Failed payment,19
+Mexico,2,Buffering,17
+Mexico,3,Price dispute,15
+Nigeria,1,Buffering,15
+Nigeria,2,Invoice question,15
+Nigeria,3,Duplicate charge,13
+Philippines,1,Duplicate charge,16
+Philippines,2,Invoice question,16
+Philippines,3,Price dispute,14
+Poland,1,Duplicate charge,16
+Poland,2,Price dispute,10
+Poland,3,Refund request,8
+South Africa,1,Audio sync issue,14
+South Africa,2,Invoice question,13
+South Africa,3,Refund request,11
+South Korea,1,Price dispute,12
+South Korea,2,Cancellation request,11
+South Korea,3,Device not supported,11
+Spain,1,Failed payment,13
+Spain,2,App crashing,10
+Spain,3,Duplicate charge,10
+United Arab Emirates,1,Invoice question,12
+United Arab Emirates,2,Price dispute,9
+United Arab Emirates,3,App crashing,8
+United Kingdom,1,Buffering,33
+United Kingdom,2,Duplicate charge,33
+United Kingdom,3,Failed payment,30
+United States,1,Refund request,81
+United States,2,Buffering,77
+United States,3,Audio sync issue,69

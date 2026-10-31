@@ -1,0 +1,21 @@
+country,total_customers,churned_customers,churn_rate_pct,avg_clv_of_churned,top_churn_reason
+South Korea,215,63,29.3,171.73,No longer needed
+Germany,401,112,27.93,149.04,Too expensive
+Indonesia,249,67,26.91,143.23,Too expensive
+Nigeria,228,61,26.75,167.94,Found alternative platform
+France,329,86,26.14,169.64,Too expensive
+India,1322,338,25.57,161.28,Too expensive
+Japan,291,74,25.43,175.83,Too expensive
+United States,1520,386,25.39,163.05,Too expensive
+Canada,433,107,24.71,174.31,Too expensive
+Philippines,247,61,24.7,154.08,Too expensive
+Spain,219,54,24.66,168.86,Found alternative platform
+United Kingdom,649,160,24.65,167.32,Too expensive
+Argentina,174,42,24.14,187.71,Too expensive
+United Arab Emirates,171,40,23.39,174.35,Found alternative platform
+Australia,212,49,23.11,196.97,No longer needed
+Brazil,397,89,22.42,169.03,Too expensive
+Italy,231,51,22.08,146.22,Found alternative platform
+South Africa,228,49,21.49,162.48,No longer needed
+Mexico,313,67,21.41,177.79,Found alternative platform
+Poland,171,35,20.47,163.35,Found alternative platform

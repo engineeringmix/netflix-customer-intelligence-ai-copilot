@@ -1,0 +1,114 @@
+[
+ {
+  "id": "churn_overall",
+  "topic": "churn rate",
+  "text": "Overall churn is 24.9% (1,991 of 8,000 customers).",
+  "keywords": "churn rate overall how many customers churned cancelled",
+  "kind": "finding"
+ },
+ {
+  "id": "churn_plan",
+  "topic": "plan",
+  "text": "Churn by current plan: Basic 26.3%, Standard 24.6%, Premium 22.5%. The gaps are small.",
+  "keywords": "plan basic standard premium churn subscription tier drivers",
+  "kind": "finding"
+ },
+ {
+  "id": "churn_autorenew",
+  "topic": "auto-renew",
+  "text": "Customers with auto-renew OFF churn at 28.7% versus 24.0% with it on.",
+  "keywords": "auto renew autorenew churn driver",
+  "kind": "finding"
+ },
+ {
+  "id": "churn_reasons",
+  "topic": "stated reasons",
+  "text": "Top stated churn reasons: Too expensive (365, 18.3%), Found alternative platform (284, 14.3%), Not enough content (217, 10.9%), No longer needed (212, 10.6%). Price-related reasons (Too expensive, Household budget cuts) are the largest group.",
+  "keywords": "reasons why customers cancel stated price expensive alternative content",
+  "kind": "finding"
+ },
+ {
+  "id": "drivers",
+  "topic": "what drives churn",
+  "text": "Strongest single signals of churn (univariate ROC-AUC, 0.5 = useless): watch minutes in the last 3 months (AUC 0.61); monthly watch-time trend (AUC 0.60); days since last activity (AUC 0.60); engagement score (AUC 0.59); recent-vs-prior watch change (AUC 0.58). Behaviour (recent viewing, billing failures) matters more than demographics. No single signal is strong.",
+  "keywords": "drivers what drives churn signals features predict reasons behaviour engagement important",
+  "kind": "finding"
+ },
+ {
+  "id": "churn_geo_channel",
+  "topic": "country and channel",
+  "text": "Country churn ranges from 20.5% to 29.3% (South Korea highest); acquisition channel from 23.6% to 25.9%. With 200-400 customers per country these gaps are mostly normal variation, so geography and channel are weak levers.",
+  "keywords": "country geography channel acquisition region churn higher lower",
+  "kind": "finding"
+ },
+ {
+  "id": "model_quality",
+  "topic": "model quality",
+  "text": "The churn model (XGBoost) has test ROC-AUC 0.65 (CV 0.661). That is weak: all four candidate models tie. It works as a RANKING tool: the top-risk 10% of customers churn at 44.9% versus a 24.9% base rate, the bottom 10% at 8.5%. It cannot reliably call an individual customer.",
+  "keywords": "model accuracy how good reliable trust auc performance weak predict churn model",
+  "kind": "finding"
+ },
+ {
+  "id": "risk_tiers",
+  "topic": "risk tiers",
+  "text": "Risk tiers (calibrated churn probability): Low 3,519 customers (observed churn 15.0%), Medium 3,234 (28.2%), High 1,247 (44.3%). Cut-offs: contact pays off above 21% (assumed $5 offer cost vs about $24 expected value), High from 40%.",
+  "keywords": "risk tier high medium low threshold who to contact offer",
+  "kind": "model"
+ },
+ {
+  "id": "segments",
+  "topic": "segments",
+  "text": "Segments: Disengaged Drifters (1,417 customers, churn 31.5%, avg CLV $189); Budget Basic Subscribers (2,008 customers, churn 28.3%, avg CLV $96); Premium Loyalists (2,225 customers, churn 22.2%, avg CLV $260); Support-Heavy Regulars (1,496 customers, churn 21.0%, avg CLV $175); New & Highly Engaged (854 customers, churn 19.9%, avg CLV $111). Silhouette is only 0.12: the customers do not form natural clusters, so segments are a slicing convenience.",
+  "keywords": "segment segmentation cluster group loyal drifters budget",
+  "kind": "finding"
+ },
+ {
+  "id": "clv",
+  "topic": "lifetime value",
+  "text": "CLV models reach R2 0.98 (MAE $10 on a mean of $175), but this is largely arithmetic: CLV is roughly months subscribed x plan price, both inputs.",
+  "keywords": "clv lifetime value customer value regression revenue per customer",
+  "kind": "finding"
+ },
+ {
+  "id": "support",
+  "topic": "support",
+  "text": "Support CSAT averages 3.26/5. Lowest by category: Billing & Payments (2.98) and Streaming Quality (3.04). Largest ticket volume: Billing & Payments (1,709), then Streaming Quality (1,323). Resolution times are almost identical across categories (about 17-19 hours).",
+  "keywords": "support tickets complaints csat satisfaction category resolution time billing streaming",
+  "kind": "finding"
+ },
+ {
+  "id": "feedback",
+  "topic": "feedback sentiment",
+  "text": "263 of 5,046 feedback entries (5.2%) carry a sentiment label that contradicts the star rating; analysis uses the rating-derived label.",
+  "keywords": "feedback sentiment label noise rating reviews",
+  "kind": "caveat"
+ },
+ {
+  "id": "quirk_coverage",
+  "topic": "data coverage",
+  "text": "Viewing data covers 2025-07-01 to 2026-06-30, but payments and registrations end 2026-05-31 and churn dates start 2025-10-01. June has no billing or sign-ups, July-September 2025 show 0% churn, and old-cohort retention (SQL Q20) is overstated. The as-of date is fixed at 2026-06-30.",
+  "keywords": "data coverage dates missing june billing payments quirks period",
+  "kind": "caveat"
+ },
+ {
+  "id": "quirk_plans",
+  "topic": "plan changes",
+  "text": "875 customers have two subscription rows; about 35% of those 'plan changes' keep the same plan, and the subscription price never changes between rows. Upgraders and downgraders churn at similar rates (about 27-28% vs 26-27%).",
+  "keywords": "plan change migration upgrade downgrade price subscription",
+  "kind": "caveat"
+ },
+ {
+  "id": "quirk_leakage",
+  "topic": "time structure",
+  "text": "Churn dates sit inside the observation window and 36% of churned customers still have sessions after their churn date, so features are not strictly 'before churn'. Model results describe association with churn, not a true forecast.",
+  "keywords": "leakage limitation caveat forecast time window honest trust",
+  "kind": "caveat"
+ },
+ {
+  "id": "quirk_text",
+  "topic": "complaint text",
+  "text": "Ticket and feedback text has only about 45 distinct strings across 11,166 records, so complaint search is theme counting, not nuanced semantic search.",
+  "keywords": "text complaint rag search quirks limitation",
+  "kind": "caveat"
+ }
+]

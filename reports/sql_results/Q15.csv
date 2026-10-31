@@ -1,0 +1,121 @@
+customer_id,first_name,last_name,country,ticket_count
+CUST004986,Ren,Qureshi,United States,7
+CUST007899,Noor,Nair,United States,7
+CUST000057,Kofi,Martin,Brazil,6
+CUST000777,Diego,Choi,India,6
+CUST001205,Ishaan,Gupta,United Arab Emirates,6
+CUST002955,Lei,Souza,Spain,6
+CUST004588,Sophia,Okonkwo,South Korea,6
+CUST006121,Mason,Nair,India,6
+CUST000021,John,Bernard,United States,5
+CUST000110,Aoi,Wang,India,5
+CUST001000,Sophia,Rodrigues,Germany,5
+CUST001531,Diya,Weber,Brazil,5
+CUST001562,Alejandro,Sheikh,Japan,5
+CUST001592,Kofi,Yamamoto,United States,5
+CUST001816,Sora,Martin,Germany,5
+CUST002160,Linda,Huang,Germany,5
+CUST002485,Sami,Rahman,Germany,5
+CUST002497,Karen,Banda,South Africa,5
+CUST002589,Sarah,Kobayashi,India,5
+CUST002717,Robert,Nair,India,5
+CUST002771,Gabriela,Lee,United States,5
+CUST002786,Diya,Nair,United States,5
+CUST003607,Ethan,Okonkwo,Poland,5
+CUST003753,Tao,Gupta,Japan,5
+CUST004043,Barbara,Saito,Nigeria,5
+CUST004156,Daniela,Menon,United States,5
+CUST004302,Ali,Weber,United States,5
+CUST004369,Evelyn,Koch,Indonesia,5
+CUST005273,Zara,Garcia,Indonesia,5
+CUST005279,Liam,Chen,India,5
+CUST006764,Jennifer,Reddy,Argentina,5
+CUST007297,Harper,Miller,United Kingdom,5
+CUST007410,Zola,Wu,South Korea,5
+CUST007444,Alexander,Choi,United States,5
+CUST007463,Qiang,Souza,Brazil,5
+CUST000132,Maya,Brown,Italy,4
+CUST000503,Mary,Tanaka,United States,4
+CUST000633,Patricia,Wang,France,4
+CUST000982,Elena,Ahmed,Poland,4
+CUST000988,Lei,Suzuki,Canada,4
+CUST001213,Karen,Bernard,Germany,4
+CUST001325,Huda,Smith,South Korea,4
+CUST001346,Omar,Laurent,India,4
+CUST001492,Vivaan,Diallo,India,4
+CUST001844,Aditya,Brown,Canada,4
+CUST002042,Charlotte,Menon,Argentina,4
+CUST002070,Karen,Fischer,India,4
+CUST002094,John,Zhang,Spain,4
+CUST002149,Elizabeth,Patel,United Kingdom,4
+CUST002179,Ibrahim,Sharma,United States,4
+CUST002373,Riya,Tanaka,South Korea,4
+CUST002649,Ahmed,Sheikh,United States,4
+CUST002673,John,Johnson,United States,4
+CUST002723,Feng,Koch,Italy,4
+CUST002837,Sakura,Saito,Italy,4
+CUST002855,Elena,Schneider,France,4
+CUST002906,Salma,Suzuki,United States,4
+CUST002967,Naledi,Singh,India,4
+CUST003011,Jennifer,Ito,India,4
+CUST003160,Sarah,Verma,Australia,4
+CUST003162,Isabella,Sheikh,Philippines,4
+CUST003293,Oliver,Ferreira,United States,4
+CUST003380,Tendai,Santos,United States,4
+CUST003401,Ali,Malik,United States,4
+CUST003413,Miguel,Yamamoto,Canada,4
+CUST003790,Pedro,Davis,Italy,4
+CUST003830,Alejandro,Zhang,Australia,4
+CUST003846,Susan,Lee,United Kingdom,4
+CUST003878,William,Ali,Australia,4
+CUST004024,Riku,Wagner,Brazil,4
+CUST004265,Lucas,Koch,India,4
+CUST004483,William,Becker,United Kingdom,4
+CUST004534,Karen,Nakamura,Canada,4
+CUST004589,Pari,Zhang,South Africa,4
+CUST004651,Pedro,Suzuki,Brazil,4
+CUST004773,Kiara,Wagner,United States,4
+CUST004828,Saanvi,Costa,United States,4
+CUST005046,Vihaan,Bernard,Canada,4
+CUST005063,Ava,Menon,United States,4
+CUST005181,Arjun,Jung,United Kingdom,4
+CUST005286,Ali,Richard,United Kingdom,4
+CUST005293,Sora,Wagner,United States,4
+CUST005364,Anika,Davis,Indonesia,4
+CUST005482,Kwame,Davis,Germany,4
+CUST005500,Alfie,Richard,Mexico,4
+CUST005544,Sami,Martinez,United States,4
+CUST005875,Diego,Kumar,India,4
+CUST006030,Fatima,Hussain,Canada,4
+CUST006033,Ava,Zhao,Mexico,4
+CUST006065,Robert,Patel,United States,4
+CUST006146,Chidi,Sheikh,Japan,4
+CUST006147,Elizabeth,Ali,United Kingdom,4
+CUST006158,Zara,Tanaka,United Kingdom,4
+CUST006267,Charlie,Li,India,4
+CUST006269,Jun,Baig,United States,4
+CUST006351,Linda,Adeyemi,India,4
+CUST006385,Ali,Kumar,India,4
+CUST006399,Yong,Saito,Indonesia,4
+CUST006408,Tao,Martin,United States,4
+CUST006414,Matthew,Santos,Spain,4
+CUST006457,Mariana,Otieno,Australia,4
+CUST006493,Sai,Reddy,United States,4
+CUST006547,Diya,Wagner,Mexico,4
+CUST006836,Charlotte,Ferreira,Mexico,4
+CUST006915,Lucia,Bernard,Nigeria,4
+CUST007101,Tariq,Rodriguez,India,4
+CUST007110,Jian,Lee,Mexico,4
+CUST007149,Tendai,Williams,Brazil,4
+CUST007379,Aisha,Banda,India,4
+CUST007457,Matthew,Okafor,South Korea,4
+CUST007512,Aisha,Ali,Canada,4
+CUST007639,Ali,Baig,Philippines,4
+CUST007660,Ahmed,Miller,United States,4
+CUST007687,Amelia,Mensah,Argentina,4
+CUST007741,Mariana,Hoffmann,United Kingdom,4
+CUST007788,Leo,Weber,South Korea,4
+CUST007793,Jennifer,Richard,United States,4
+CUST007854,Riya,Moreau,Poland,4
+CUST007889,Zara,Muller,India,4
+CUST007913,Tendai,Miller,United Kingdom,4

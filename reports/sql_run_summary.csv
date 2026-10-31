@@ -1,0 +1,38 @@
+query,title,status,rows,seconds
+Q01,Active customers by country,OK,20,0.04
+Q02,"Total and average monthly revenue per plan (successful payments, linked via subscription)",OK,3,0.08
+Q03,Overall churn rate,OK,1,0.0
+Q04,Customers per acquisition channel + churn rate,OK,8,0.01
+Q05,Average customer age by (current) plan,OK,3,0.02
+Q06,Top 10 most-watched titles (total minutes),OK,10,0.02
+Q07,Average completion % by content_type and genre,OK,76,0.03
+Q08,Failed payments in each of the last 12 months (zero-filled; billing data ends May 2026),OK,12,0.01
+Q09,Average resolution time by issue category (resolved/closed tickets only),OK,6,0.0
+Q10,Distribution of CSAT across resolved/closed tickets,OK,5,0.0
+Q11,Device generating the most viewing minutes,OK,6,0.01
+Q12,Average rating by sentiment label (shows the label noise: Positive should not average ~3),OK,3,0.0
+Q13,Signups by acquisition channel per calendar year (pivoted),OK,8,0.01
+Q14,% of customers with auto-renew OFF (on their current subscription),OK,1,0.01
+Q15,Customers with more than 3 support tickets,OK,120,0.01
+Q16,RANK() plans by revenue = monthly_price x count of ACTIVE subscriptions,OK,3,0.01
+Q17,Most recent support ticket per customer (ROW_NUMBER); invalid dates excluded,OK,4378,0.03
+Q18,3-month moving average of new registrations,OK,89,0.01
+Q19,LAG(): customers whose watch minutes dropped in the latest month (Jun-26) vs the prior month (May-26),OK,2905,0.51
+Q20,"Registration-cohort retention at 1, 3, 6 months (only cohorts old enough to be observed)",OK,89,0.01
+Q21,DENSE_RANK(): top 5 countries by churn rate,OK,5,0.01
+Q22,Running total of successful payments per customer,OK,103529,0.45
+Q23,Customers with 3 consecutive monthly declines in watch time (m < m-1 < m-2); latest such window returned,OK,3791,0.56
+Q24,"Monthly churn rate, last 12 months = churned in month / customers active at start of month",OK,12,0.04
+Q25,Retention rate (still active today) by acquisition channel,OK,8,0.01
+Q26,Lifetime spend quartiles with NTILE(4) (1 = top spenders),OK,4,0.08
+Q27,Top 3 issue_subcategory per country by ticket volume,OK,60,0.01
+Q28,2+ failed payments in last 90 days AND high churn risk (top-quartile composite risk among active customers),OK,1,0.09
+Q29,Engagement 30d before vs 30d after each customer's most recent PRICE CHANGE,OK,40,0.02
+Q30,"Country scorecard: customers, churned, churn rate, avg CLV of churned customers, top churn reason",OK,20,0.06
+Q31,"At-risk revenue: composite risk (0-1) x monthly price, top 50 ACTIVE customers",OK,50,0.1
+Q32,"Top 5 complaint subcategories per country, most recent completed quarter (Q2 2026), with avg resolution & CSAT",OK,100,0.01
+Q33,Win-back candidates: churned customers whose PRE-churn lifetime value is in the top quartile (all customers ranked),OK,498,0.09
+Q34,Plan migration: most common paths and churn of upgraders vs downgraders,OK,9,0.02
+Q35,"WAU / MAU stickiness, last 6 months (WAU = average distinct weekly actives within the month)",OK,6,0.1
+Q36,Proactive-outreach proxy: ACTIVE customers with negative feedback (rating <= 2) within 14 days AFTER a failed payment,OK,13,0.01
+Q37,"Customer health score (0-100, 100 = healthiest) for ACTIVE customers, ranked by risk (highest risk first)",OK,6009,0.2

@@ -1,0 +1,183 @@
+{
+  "churn_selection_rule": "best CV AUC = Random Forest (0.6623 +/- 0.0191); XGBoost within 1 std -> chosen for explainability",
+  "churn_comparison": [
+    {
+      "model": "Random Forest",
+      "cv_auc_mean": 0.6623,
+      "cv_auc_std": 0.0191,
+      "accuracy": 0.6562,
+      "precision": 0.3657,
+      "recall": 0.5201,
+      "f1": 0.4295,
+      "roc_auc": 0.6509,
+      "pr_auc": 0.3854
+    },
+    {
+      "model": "XGBoost",
+      "cv_auc_mean": 0.661,
+      "cv_auc_std": 0.0145,
+      "accuracy": 0.6238,
+      "precision": 0.3491,
+      "recall": 0.593,
+      "f1": 0.4395,
+      "roc_auc": 0.6524,
+      "pr_auc": 0.4007
+    },
+    {
+      "model": "Gradient Boosting",
+      "cv_auc_mean": 0.6591,
+      "cv_auc_std": 0.0157,
+      "accuracy": 0.755,
+      "precision": 0.5455,
+      "recall": 0.0905,
+      "f1": 0.1552,
+      "roc_auc": 0.6579,
+      "pr_auc": 0.4081
+    },
+    {
+      "model": "Logistic Regression",
+      "cv_auc_mean": 0.6583,
+      "cv_auc_std": 0.015,
+      "accuracy": 0.615,
+      "precision": 0.3443,
+      "recall": 0.6055,
+      "f1": 0.439,
+      "roc_auc": 0.6554,
+      "pr_auc": 0.3889
+    }
+  ],
+  "churn_final_model": "XGBoost",
+  "churn_thresholds": {
+    "default_0.5": {
+      "accuracy": 0.62375,
+      "precision": 0.34911242603550297,
+      "recall": 0.592964824120603,
+      "f1": 0.43947858472998136,
+      "roc_auc": 0.6523925785332653,
+      "pr_auc": 0.40066449853708586
+    },
+    "profit_optimal": {
+      "threshold": 0.5199999999999999,
+      "accuracy": 0.654375,
+      "precision": 0.3723228995057661,
+      "recall": 0.5678391959798995,
+      "f1": 0.44975124378109455,
+      "roc_auc": 0.6523925785332653,
+      "pr_auc": 0.40066449853708586
+    },
+    "assumptions": {
+      "cost_per_offer": 5.0,
+      "value_per_saved_churner": 24.0
+    }
+  },
+  "churn_confusion_matrix_0.5": [
+    [
+      762,
+      440
+    ],
+    [
+      162,
+      236
+    ]
+  ],
+  "risk_tiers": {
+    "low_below": 0.208,
+    "high_from": 0.4,
+    "break_even_probability": 0.208
+  },
+  "risk_tier_counts": {
+    "Low": 3519,
+    "Medium": 3234,
+    "High": 1247
+  },
+  "risk_tier_churn_rates": {
+    "High": 0.443,
+    "Low": 0.15,
+    "Medium": 0.282
+  },
+  "churn_decile_lift": {
+    "base_rate": 0.248875,
+    "top_decile_churn_rate": 0.44875,
+    "bottom_decile_churn_rate": 0.085,
+    "top_decile_lift": 1.8031140130587642
+  },
+  "segmentation_k_search": {
+    "k": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "inertia": [
+      56091.7,
+      50746.7,
+      46817.8,
+      43549.6,
+      40965.0,
+      38873.4,
+      37332.2,
+      36083.0,
+      34856.6
+    ],
+    "silhouette": [
+      0.1189,
+      0.1255,
+      0.1194,
+      0.1239,
+      0.125,
+      0.1244,
+      0.1273,
+      0.1167,
+      0.1206
+    ]
+  },
+  "segmentation": {
+    "chosen_k": 5,
+    "silhouette_at_k": 0.12387939437022087,
+    "names": {
+      "0": "Premium Loyalists",
+      "2": "Disengaged Drifters",
+      "3": "Support-Heavy Regulars",
+      "1": "New & Highly Engaged",
+      "4": "Budget Basic Subscribers"
+    },
+    "descriptions": {
+      "Premium Loyalists": "Long-tenured, highest plan price and lifetime value.",
+      "Disengaged Drifters": "Lowest engagement and the highest churn: watching little, drifting away.",
+      "Support-Heavy Regulars": "Contact support far more than anyone else; satisfied after resolution.",
+      "New & Highly Engaged": "Newest customers who watch the most; the future of the base.",
+      "Budget Basic Subscribers": "Cheapest plans, more payment failures, low lifetime value; price-sensitive."
+    }
+  },
+  "clv_comparison": [
+    {
+      "model": "Random Forest",
+      "cv_r2": 0.9772,
+      "MAE": 10.0917,
+      "RMSE": 13.6693,
+      "R2": 0.9788
+    },
+    {
+      "model": "XGBoost",
+      "cv_r2": 0.9768,
+      "MAE": 10.2556,
+      "RMSE": 13.7888,
+      "R2": 0.9784
+    },
+    {
+      "model": "Linear Regression",
+      "cv_r2": 0.852,
+      "MAE": 25.5581,
+      "RMSE": 38.4497,
+      "R2": 0.8322
+    }
+  ],
+  "clv_final_model": "Random Forest",
+  "clv_target_mean": 174.54846375,
+  "clv_target_std": 93.1353192406817
+}

@@ -1,0 +1,10 @@
+migration_path,direction,customers,churn_rate_pct,pct_of_migrations,popularity_rank
+Basic -> Basic,Same tier,128,28.91,14.6,1
+Standard -> Basic,Downgrade,119,26.05,13.6,2
+Premium -> Basic,Downgrade,114,28.07,13.0,3
+Standard -> Standard,Same tier,108,30.56,12.3,4
+Premium -> Standard,Downgrade,106,25.47,12.1,5
+Basic -> Standard,Upgrade,101,29.7,11.5,6
+Basic -> Premium,Upgrade,74,32.43,8.5,7
+Premium -> Premium,Same tier,69,21.74,7.9,8
+Standard -> Premium,Upgrade,56,17.86,6.4,9

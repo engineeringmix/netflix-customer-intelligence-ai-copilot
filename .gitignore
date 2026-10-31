@@ -1,0 +1,8 @@
+.env
+__pycache__/
+.ipynb_checkpoints/
+models/*.joblib
+models/rag/
+data/processed/
+reports/copilot_query_log.jsonl
+reports/generated/
